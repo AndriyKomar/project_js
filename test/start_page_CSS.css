@@ -1,0 +1,83 @@
+html {
+    background: #4b73a8;
+}
+
+.start_text:link {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: cursive;
+    color: #FAFAFA;
+}
+
+.start_text:visited {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: cursive;
+    color: white;
+}
+
+.container {
+    height: 20em;
+    width: 25em;
+    border-radius: 5px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    background: #6f00ff;
+}
+
+.title {
+    padding-left: 8em;
+    padding-bottom: 0.4em;
+}
+
+.doit {
+    display: block;
+    padding-left: 0.5em;
+    padding-top: 0.8em;
+}
+
+div {
+    display: block;
+    font-family: cursive;
+    border-radius: 8px;
+}
+
+.block {
+    background: #536ba1;
+    height: 19.7em;
+    width: 25em;
+    color: #FAFAFA;
+    padding-left: 0.5em;
+    padding-top: 0.4em;
+}
+
+.inner-block1 {
+    background: #5c6298;
+    height: 5em;
+    width: 24.5em;
+    color: #FAFAFA;
+    padding-top: 1.5em;
+    text-align: center;
+}
+
+.inner-block2 {
+    background: #635a91;
+    height: 8em;
+    width: 17em;
+    color: #FAFAFA;
+    padding-left: 7.5em;
+    padding-top: 1em;
+}
+
+.start_button {
+    display: block;
+    width: 12em;
+    height: 8em;
+    border-radius: 5em;
+    background: #6c5289;
+}
+
+.start_button:hover {
+    background: #4b73a8;
+}

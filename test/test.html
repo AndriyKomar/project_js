@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="test_CSS.css">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body onload="start();">
+        
+        <div class='block'>
+            <div class='title'>Question <div id="folder" style="display:inline">1</div> of 30</div>
+            <div class='title'>You have correct answer: <div id="rating" style="display:inline">0</div></div>
+            
+            <div class='right'>
+                <div class='row'>
+                    <div class='title'>find an image that should stay against "?"</div>
+                </div>    
+                <div class='row'>
+                    <div class="ans"><img onClick="game('image1');" src="1.jpg " width= "150" height="130" id="image1"></div>
+
+                    <div class="ans"><img style="ans" onClick="game('image2');" src="2.jpg " width= "150" height="130" id="image2"></div>
+                    
+                    <div class="ans"><img style="ans" onClick="game('image3');" src="3.jpg " width= "150" height="130" id="image3" ></div>
+                </div>
+                <div class='row'>
+                    <div class="ans"><img onClick="game('image4');" src="4.jpg " width= "150" height="130" id="image4" style="display:inline"></div>
+
+                    <div class="ans"><img onClick="game('image5');" src="5.jpg " width= "150" height="130" id="image5" style="display:inline"></div>
+
+                    <div class="ans"><img onClick="game('image6');" src="6.jpg " width= "150" height="130" id="image6" style="display:inline"></div>
+                </div>
+            </div>
+            <div class='left'>
+                <div class='row'>
+                    <div class='title'>look at the picture</div>
+                </div> 
+               <img src="2/zad.jpg" width= "300" height="300" id="zad">
+            </div>
+            
+            
+        </div>
+        
+    </body>
+</html>
